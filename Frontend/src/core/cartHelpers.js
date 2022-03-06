@@ -45,8 +45,6 @@ export const getCart = () => {
     return [];
 };
 
-
-
 export const updateItem = (productId, count) => {
     let cart = [];
     if (typeof window !== 'undefined') {
